@@ -1,0 +1,44 @@
+
+.wrap-btn-image-selector input[type="radio"]+span {
+    opacity: 0.8;
+    display: block;
+    vertical-align: middle;
+    padding: 6px;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border-color: #dddddd;
+}
+
+.wrap-btn-image-selector input[type="radio"]:checked+span {
+    opacity: 1;
+    border-color: #009b96;
+}
+
+
+.form-group.wrap-btn-image-selector>label {
+    display: block;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.form-group.wrap-btn-image-selector>label>input {
+    display: none;
+}
+
+.form-group.wrap-btn-image-selector {
+    overflow: hidden;
+}
+
+.form-group.wrap-btn-image-selector>label img {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
+}
